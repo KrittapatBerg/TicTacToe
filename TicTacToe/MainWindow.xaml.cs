@@ -241,7 +241,7 @@ namespace TicTacToe
             //All these three are the same value 
             if (mResults[2] != MarkType.Free && (mResults[2] & mResults[4] & mResults[6]) == mResults[2])
             {
-                //Game ends
+                //Game ends  
                 mGameEnded = true;
 
                 //Highlight winning cells in color
